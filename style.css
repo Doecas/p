@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    font-family: monospace;
+}
+h2, h3 {
+    margin: 0;
+}
+
+img {
+    width: 7rem;
+    height: 7rem;
+    border-radius: 55%;
+    border: solid 2px #fff;
+    position: relative;
+    top: 30px;
+}
+.container {
+    margin-top: 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.card {
+    box-shadow: 0 4px 8px gray;
+    width: 200px;
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 5px;
+}
+.card:hover {
+    box-shadow: 0 4px 8px rgb(47, 47, 197);
+}
+.card-top {
+    background-color: lightcoral;
+    text-align: center;
+    height: 25%;
+    border-radius: 5px 5px 0 0;
+}
+.card-infos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 1em 0 1em;
+}
+.name {
+    margin: 0.5rem;
+    color: gray;
+}
+.job {
+    margin: 0.5rem;
+    text-transform: uppercase;
+    color: rgb(236, 134, 149);
+}
+.quote {
+    text-align: center;
+    margin-top: 2em;
+    color: gray;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 0.7rem;
+}
+.button {
+    margin-bottom: 1em;
+    text-align: center;
+}
+button {
+    border: solid 2px lightcoral;
+    background: #fff;
+    color: lightcoral;
+    cursor: pointer;
+}
+button:hover {
+    background: lightcoral;
+    color: #fff;
+}
